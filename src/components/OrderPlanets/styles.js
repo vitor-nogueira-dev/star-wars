@@ -5,10 +5,6 @@ const ContainerSort = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
-  @media screen and (max-width: 768px) {
-    background-color: green;
-  }
 `;
 
 const ContainerRadios = styled.div`
