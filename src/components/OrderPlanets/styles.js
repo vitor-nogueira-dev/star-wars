@@ -4,6 +4,11 @@ const ContainerSort = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 768px) {
+    background-color: green;
+  }
 `;
 
 const ContainerRadios = styled.div`
@@ -16,7 +21,7 @@ const ContainerRadios = styled.div`
   height: 67px;
 
   label {
-    font-family: "Epilogue";
+    font-family: 'Epilogue';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;

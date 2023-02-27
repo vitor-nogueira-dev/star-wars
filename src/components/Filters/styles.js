@@ -14,7 +14,7 @@ const Container = styled.div`
 
   margin: auto;
 
-  width: 90vw;
+  width: 98vw;
 
   table {
     width: 100%;

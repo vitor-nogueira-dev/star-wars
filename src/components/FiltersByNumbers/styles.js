@@ -6,7 +6,7 @@ const Forms = styled.form`
   justify-content: space-evenly;
   flex-wrap: wrap;
 
-  width: 1180px;
+  width: 87vw;
 
   border: 0.5px solid rgba(255, 255, 255, 0.5);
   border-radius: 5px;
@@ -71,7 +71,7 @@ const Forms = styled.form`
   }
 
   @media screen and (max-width: 768px) {
-    width: 85vw;
+    width: 90vw;
 
     display: flex;
     justify-content: center;
